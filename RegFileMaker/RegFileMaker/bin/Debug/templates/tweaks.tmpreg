@@ -1,0 +1,74 @@
+name=Windows Tweaks
+version=1.0
+rfm_version=1.0
+
+.begin_of_description
+Adding Windows tweaks to Registry
+.end_of_description
+
+.begin_of_vars
+1=radio_button;DisableBsodReboot
+2=radio_button;EnableBsodReboot
+3=radio_button;DisableUnreadOnHello
+4=radio_button;EnableUnreadOnHello
+5=radio_button;
+6=radio_button;
+.end_of_vars
+type=select
+
+.begin_of_translations
+DisableBsodReboot:
+Rus.lang=Отключить перезагрузку при BSOD
+Ukr.lang=Відключити перезавантаження в разі BSOD
+Eng.lang=Disable Auto-Reboot in case of BSOD
+Esp.lang=Desactivar reinicio en caso de BSOD
+Deu.lang=Deaktivieren Sie den Neustart bei BSOD
+.end_of_translations
+
+select=1
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Disable Auto-Reboot in case of BSOD
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
+"AutoReboot"=dword:00000000
+.end_of_main_select
+
+select=2
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Enable Auto-Reboot in case of BSOD
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
+"AutoReboot"=dword:00000001
+.end_of_main_select
+
+select=3
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Disable unread notifications on Hello Screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\UnreadMail]
+"MessageExpiryDays"=dword:00000000
+.end_of_main_select
+
+select=4
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Enable Unread Notifications on Hello Screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\UnreadMail]
+"MessageExpiryDays"=dword:00000001
+.end_of_main_select
+
+select=5
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Disable Recent Documents Menu
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=hex:01,00,00,00
+.end_of_main_select
+
+select=6
+.begin_of_main_select
+Windows Registry Editor Version 5.00
+;Enable Recent Documents Menu
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecentDocsMenu"=hex:01,00,00,00
+.end_of_main_select

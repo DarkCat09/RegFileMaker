@@ -1,0 +1,13 @@
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\bin\Debug\RegFileMaker.exe.config
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\bin\Debug\RegFileMaker.exe
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\bin\Debug\RegFileMaker.pdb
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.csprojAssemblyReference.cache
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.Form1.resources
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.Properties.Resources.resources
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.csproj.GenerateResource.cache
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.csproj.CoreCompileInputs.cache
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.exe
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.pdb
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.AboutProgram.resources
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.SettingsForm.resources
+C:\Users\Acer\VisualStudio\source\repos\RegFileMaker\RegFileMaker\obj\Debug\RegFileMaker.SelectTemplateForm.resources

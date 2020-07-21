@@ -1,0 +1,30 @@
+name=Context Menu Editing
+version=1.0
+rfm_version=1.0
+
+.begin_of_description
+Adding new point to Context Menu
+.end_of_description
+
+.begin_of_vars
+1=text_box;PointName
+2=text_box;PointCommand
+.end_of_vars
+type=usertext
+
+.begin_of_translations
+PointName:
+Rus.lang=Введите название пункта
+Eng.lang=Enter point name
+PointCommand:
+Rus.lang=Введите комманду для пункта
+Eng.lang=Enter point command
+.end_of_translations
+
+.begin_of_main
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\-${1}-]
+[HKEY_CLASSES_ROOT\*\shell\-${1}-\command]
+@=-${2}-
+.end_of_main
